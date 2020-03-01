@@ -43,10 +43,12 @@ body {
   transform: rotate(180deg);
   display: block;
   width: 70px;
+  right: 0;
 }
 
 .slick-prev::before {
   content: url("./img/arr.png");
+  left: 0;
 }
 
 @media all and (max-width: 1200px) {
